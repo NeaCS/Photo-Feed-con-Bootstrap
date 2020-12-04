@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(224, 223, 223);
+    padding-top: 60px; 
+}
+
+div.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+
+
+div.row {
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    margin-right: 10%;
+    
+    
+}
+
+.fa-instagram {
+    margin-left: 60%;
+}
+
+
+
+.newPost {
+    margin-left: auto; 
+      
+}
+
+
+.dropdown {
+    margin-right: 10%;
+}
+
+
+
+
+.fa-camera {
+    color: rgb(65, 62, 62);
+}
+
+.fa-map-marker-alt {
+    color: rgb(65, 62, 62);
+
+}
+
+.secondNav {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px; 
+    
+}
+  
+.fa-square {
+    color:rgb(65, 62, 62);
+    margin: 2px;
+    padding: 3px;
+}
+
+.fa-th {
+    color:rgb(65, 62, 62);
+    margin: 2px;
+    padding: 3px;
+}
+
+.fa-th:active {
+    background-color: teal;
+
+}
+
+.fa-square:active {
+    background-color: teal;
+
+}
+
+.colCard {
+    text-align: center;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 20px;
+    
+}
+
+.card-body {
+    padding: 0px;
+
+}
+
+input {
+    border-radius: 10px;
+}
+
+.card h4 {
+    display: inline-block;
+}
+.card p {
+    display: inline-block;
+    float: right;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+}

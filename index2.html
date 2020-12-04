@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Feed con Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 pr-0 pl-0">
+                <nav class="navbar fixed-top navbar-light bg-light mr-0 ml-0">
+                    <span class="navbar-brand"><a class="navbar-brand"><i
+                                class="fab fa-instagram 2-px mr-2"></i>Instagram</a></span>
+                    <!-- Button trigger modal -->
+
+                    <button type="button" class="btn btn-success newPost" data-toggle="modal"
+                        data-target="#exampleModal">
+                        Create a New Post
+                    </button>
+
+
+                    
+
+                    <div class="dropdown">
+                        <button class="btn fas fa-cog dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <hr>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 secondNav pb-3">
+                <a href=""><i class="fas fa-th"></i></a>
+                <a href="index.html"><i class="fas fa-square"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img
+                    src="https://randomwordgenerator.com/img/picture-generator/55e7d5464c5aa514f1dc8460962e33791c3ad6e04e507440772872dc914bc0_640.jpg">
+            </div>
+            <div class="col-4">
+                <img
+                    src="https://randomwordgenerator.com/img/picture-generator/52e6d2414857ac14f1dc8460962e33791c3ad6e04e507749712e79d2934cc4_640.jpg">
+            </div>
+            <div class="col-4">
+                <img
+                    src="https://randomwordgenerator.com/img/picture-generator/54e9d5414c5aaa14f1dc8460962e33791c3ad6e04e507440742a7ed0954ac1_640.jpg">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img
+                    src="https://randomwordgenerator.com/img/picture-generator/57e8d4474a51ae14f1dc8460962e33791c3ad6e04e507440742a7ad19e49cc_640.jpg">
+            </div>
+            <div class="col-4">
+                <img
+                    src="https://randomwordgenerator.com/img/picture-generator/53e1d1414b5bab14f1dc8460962e33791c3ad6e04e5074417c2f7dd4944ac5_640.jpg">
+            </div>
+            <div class="col-4">
+                <img src="https://randomwordgenerator.com/img/picture-generator/fern-2332262_640.jpg">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img
+                    src="https://randomwordgenerator.com/img/picture-generator/55e6d0405754a809ea898279c02132761022dfe05a51774073267dd2_640.jpg">
+            </div>
+            <div class="col-4">
+                <img
+                    src="https://randomwordgenerator.com/img/picture-generator/52e3d74a4b50a514f1dc8460962e33791c3ad6e04e507749742c78d59e45cc_640.jpg">
+            </div>
+            <div class="col-4">
+                <img
+                    src="https://randomwordgenerator.com/img/picture-generator/55e3d0444a50a414f1dc8460962e33791c3ad6e04e50744172277ed0974ec6_640.jpg">
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <textarea name="message" rows="3" cols="60"></textarea>
+            </div>
+            <div class="modal-body">
+                <a href=""><i class="fas fa-camera ml-2  mr-2 mt-0 mb-0"></i></a>
+                <a href=""><i class="fas fa-map-marker-alt m-2"></i></a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary"
+                    data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success">Publish</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
